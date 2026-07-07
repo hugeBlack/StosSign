@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import StosSign_API
+import StosSign_API_NoCertificate
 
 extension AppleAPI {
     public func authenticate(

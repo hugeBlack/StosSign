@@ -6,16 +6,15 @@
 //
 
 import Foundation
-import StosSign_API
-import StosSign_Certificate
+import StosSign_API_NoCertificate
 #if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
 
-public typealias AnisetteData = StosSign_API.AnisetteData
-public typealias Account = StosSign_API.Account
-public typealias AppleAPISession = StosSign_API.AppleAPISession
-public typealias AppleAPIError = StosSign_API.AppleAPIError
+public typealias AnisetteData = StosSign_API_NoCertificate.AnisetteData
+public typealias Account = StosSign_API_NoCertificate.Account
+public typealias AppleAPISession = StosSign_API_NoCertificate.AppleAPISession
+public typealias AppleAPIError = StosSign_API_NoCertificate.AppleAPIError
 
 public final class Authentication {
     public init() { }
